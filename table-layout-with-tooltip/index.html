@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Center div</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- 
+      Create a table layout and add a tooltip for each cell
+        1. Create a table using div, the table should take up the entire viewport
+        2. Add 50px padding around the table, make sure no horizontal scrollbar is being initialized because of the padding.
+        3. There should be three equal sized columns in the table in all the viewport sizes.
+        4. Table cells have a 1px border, space between table should be 50px.
+        5. Add a tooltip to the top right of each of the cell
+    -->
+    <div class="table-container">
+      <div class="table-row">
+        <div class="table-cell" data-tooltip="Tooltip 1">Cell 1</div>
+        <div class="table-cell" data-tooltip="Tooltip 2">Cell 2</div>
+        <div class="table-cell" data-tooltip="Tooltip 3">Cell 3</div>
+      </div>
+      <div class="table-row">
+        <div class="table-cell" data-tooltip="Tooltip 4">Cell 4</div>
+        <div class="table-cell" data-tooltip="Tooltip 5">Cell 5</div>
+        <div class="table-cell" data-tooltip="Tooltip 6">Cell 6</div>
+      </div>
+      <div class="table-row">
+        <div class="table-cell" data-tooltip="Tooltip 7">Cell 7</div>
+        <div class="table-cell" data-tooltip="Tooltip 8">Cell 8</div>
+        <div class="table-cell" data-tooltip="Tooltip 9">Cell 9</div>
+      </div>
+    </div>
+    
+  </body>
+
+</html>
